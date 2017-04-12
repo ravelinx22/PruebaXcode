@@ -10,6 +10,11 @@ import UIKit
 
 class PruebaCellTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet var IMAGEN: UIImageView!
+    
+    @IBOutlet var LABEL: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

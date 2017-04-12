@@ -12,6 +12,10 @@
 		3F166CCF1E8BE29300E02EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F166CCD1E8BE29300E02EAD /* Main.storyboard */; };
 		3F166CD11E8BE29300E02EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F166CD01E8BE29300E02EAD /* Assets.xcassets */; };
 		3F166CD41E8BE29300E02EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F166CD21E8BE29300E02EAD /* LaunchScreen.storyboard */; };
+		3F7E38141E901AA6002F92B1 /* PruebaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E38121E901AA6002F92B1 /* PruebaController.swift */; };
+		3F7E38151E901AA6002F92B1 /* PruebaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E38131E901AA6002F92B1 /* PruebaController.xib */; };
+		3F7E38181E901BC5002F92B1 /* PruebaCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E38161E901BC5002F92B1 /* PruebaCellTableViewCell.swift */; };
+		3F7E38191E901BC5002F92B1 /* PruebaCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E38171E901BC5002F92B1 /* PruebaCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3F166CD01E8BE29300E02EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F166CD31E8BE29300E02EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F166CD51E8BE29300E02EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7E38121E901AA6002F92B1 /* PruebaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PruebaController.swift; sourceTree = "<group>"; };
+		3F7E38131E901AA6002F92B1 /* PruebaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PruebaController.xib; sourceTree = "<group>"; };
+		3F7E38161E901BC5002F92B1 /* PruebaCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PruebaCellTableViewCell.swift; sourceTree = "<group>"; };
+		3F7E38171E901BC5002F92B1 /* PruebaCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PruebaCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				3F166CD01E8BE29300E02EAD /* Assets.xcassets */,
 				3F166CD21E8BE29300E02EAD /* LaunchScreen.storyboard */,
 				3F166CD51E8BE29300E02EAD /* Info.plist */,
+				3F7E38121E901AA6002F92B1 /* PruebaController.swift */,
+				3F7E38131E901AA6002F92B1 /* PruebaController.xib */,
+				3F7E38161E901BC5002F92B1 /* PruebaCellTableViewCell.swift */,
+				3F7E38171E901BC5002F92B1 /* PruebaCellTableViewCell.xib */,
 			);
 			path = Prueba;
 			sourceTree = "<group>";
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					3F166CC51E8BE29300E02EAD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9C7HVHV7TF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7E38151E901AA6002F92B1 /* PruebaController.xib in Resources */,
 				3F166CD41E8BE29300E02EAD /* LaunchScreen.storyboard in Resources */,
 				3F166CD11E8BE29300E02EAD /* Assets.xcassets in Resources */,
+				3F7E38191E901BC5002F92B1 /* PruebaCellTableViewCell.xib in Resources */,
 				3F166CCF1E8BE29300E02EAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,8 @@
 			files = (
 				3F166CCC1E8BE29300E02EAD /* ViewController.swift in Sources */,
 				3F166CCA1E8BE29300E02EAD /* AppDelegate.swift in Sources */,
+				3F7E38181E901BC5002F92B1 /* PruebaCellTableViewCell.swift in Sources */,
+				3F7E38141E901AA6002F92B1 /* PruebaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C7HVHV7TF;
 				INFOPLIST_FILE = Prueba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamRavelo.Prueba;
@@ -270,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C7HVHV7TF;
 				INFOPLIST_FILE = Prueba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamRavelo.Prueba;
@@ -297,6 +316,7 @@
 				3F166CDA1E8BE29300E02EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
